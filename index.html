@@ -8,8 +8,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="min-h-screen">
+        <header>
+            <nav class="main-nav">
+                <div class="nav-heading">Swiltier</div>
+                <div class="nav-links">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main-container">
+            <section class="weather-container">
+                <div class="weather-image">SW</div>
+                <div class="weather-search">
+                    <input type="text" placeholder="Enter a City" id="cityInput" required>
+                    <button type="submit" id="searchButton">Search</button>
+                </div>
+                <div class="weather-result">
+                    <h2 class="city-name"></h2>
+                    <p class="temperature"></p>
+                    <p class="description"></p>
+                    <p class="wind"></p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Swiltier Weather App. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
-
-
